@@ -114,14 +114,20 @@ npm run build     # Build for production</code></pre>
 ├── README.md
 └── package.json</code></pre>
 
-<h2>📦 Included in GitHub Free Version</h2>
+<h2>📦 What’s Included in the Free GitHub Version?</h2>
+<p>The GitHub version includes only essential components to help you get started:</p>
 <ul>
-  <li>Homepage layout for medical/clinic website</li>
-  <li>React components: Header, Footer, Services</li>
-  <li>Responsive layout using Bootstrap 5</li>
-  <li>SCSS styling and modular components</li>
-  <li>React, JSX, and HTML structure</li>
+  <li>✅ Header with navigation</li>
+  <li>✅ Hero Section (Homepage banner)</li>
+  <li>✅ About Section (Clinic/Doctor intro)</li>
+  <li>✅ Surgery Cards Section (Featured services layout)</li>
+  <li>✅ Footer with contact & social links</li>
+  <li>✅ Responsive layout using Bootstrap 5</li>
+  <li>✅ SCSS styling</li>
+  <li>✅ React, JSX, and HTML structure</li>
 </ul>
+<p>🔒 Full features like multi-page layout, appointment form, treatment details, doctor profiles, and more are available in the premium version.</p>
+<p>👉 <a href="https://themixly.com/themes/ent-clinic-react-nextjs-template/" target="_blank">Buy Full Version on Themixly →</a></p>
 
 <h2>📝 License</h2>
 <p>This template is licensed under the <a href="https://github.com/themixlyweb/nextjs-medical-website-template/blob/main/LICENSE" target="_blank">MIT License</a>.<br>
