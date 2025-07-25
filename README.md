@@ -47,6 +47,7 @@
 <h3>👉 <a href="https://themixly.com/themes/ent-clinic-react-nextjs-template/" target="_blank"> Upgrade to Full Version</a></h3>
 
 <h2>🧠 Template Use Cases</h2>
+<p>This Next.js & Bootstrap medical template is ideal for:</p>
 <ul>
   <li>ENT clinics & otolaryngologists</li>
   <li>General healthcare websites</li>
@@ -127,43 +128,28 @@ npm run build     # Build for production</code></pre>
   <li>✅ React, JSX, and HTML structure</li>
 </ul>
 <p>🔒 Full features like multi-page layout, appointment form, treatment details, doctor profiles, and more are available in the premium version.</p>
-<p>👉 <a href="https://themixly.com/themes/ent-clinic-react-nextjs-template/" target="_blank">Buy Full Version on Themixly →</a></p>
+<p>👉 <a href="https://themixly.com/themes/ent-clinic-react-nextjs-template/" target="_blank">View Full Features on Themixly →</a></p>
 
 <h2>📝 License</h2>
 <p>This template is licensed under the <a href="https://github.com/themixlyweb/nextjs-medical-website-template/blob/main/LICENSE" target="_blank">MIT License</a>.<br>
 You may use this version for personal and educational purposes.<br>
-<p>👉 For commercial projects, please purchase the <a href="https://themixly.com/themes/ent-clinic-react-nextjs-template/" target="_blank">full version</a> here.</p>
+
 
 <h2>📢 Support & Contributions</h2>
 <ul>
   <li>⭐ Star this repo if you find it useful</li>
   <li>Share with other developers or medical business owners</li>
-  <li>👉 Buy the Full Template on <a href="https://themixly.com/themes/ent-clinic-react-nextjs-template/" target="_blank">Themixly</a></li>
+  <li>Want full features & commercial license?</li>
+  <li>👉 Buy the Full Template on <a href="https://themixly.com/" target="_blank">Themixly</a></li>
 </ul>
-
-<h2>🔗 Other Templates You May Like</h2>
-<ul>
-  <li>🦷 <a href="https://themixly.com/themes/dental-clinic-react-nextjs-template/" target="_blank">DentalClinic – React Template for Dentists</a></li>
-  <li>🛠 <a href="https://themixly.com/themes/construction-company-react-nextjs-template/" target="_blank">Buildify – Construction Company React Template</a></li>
-  <li>🍽 <a href="https://themixly.com/themes/gourmet-food-react-one-page-template/" target="_blank">RoyaleDelights – Food & Restaurant One-Page Template</a></li>
-</ul>
-
-<p>Explore more templates → <a href="https://themixly.com/themes" target="_blank">Themixly Themes</a></p>
 
 <h2>🧾 Contact Us</h2>
 <p>
   Need support or custom development?<br>
   📩 <a href="https://themixly.com/contact-us/" target="_blank">Contact Themixly Team</a><br>
-  🔗 Follow us:
-  <a href="https://www.facebook.com/profile.php?id=61576748155161" target="_blank">Facebook</a> |
-  <a href="https://www.instagram.com/themixly/" target="_blank">Instagram</a> |
-  <a href="https://www.linkedin.com/showcase/themixly" target="_blank">LinkedIn</a> |
-  <a href="https://www.pinterest.com/Themixly" target="_blank">Pinterest</a> |
-  <a href="https://www.youtube.com/@Thmixly" target="_blank">YouTube</a>
-</p>
 
 <footer>
-  © 2025 <a href="https://themixly.com/" target="_blank">Themixly</a>. All rights reserved. | Built with ❤️ for developers & designers.
+  © 2025 Themixly. All rights reserved. | Built with ❤️ for developers & designers.
 </footer>
 
 </body>
