@@ -1,11 +1,11 @@
 export const siteLastUpdated = '15 de septiembre de 2026';
 
 export const engineeringFaculties = [
-  { id: 1, title: 'Ingeniería de Sistemas', description: 'Software, datos y transformación digital.' },
-  { id: 2, title: 'Ingeniería Civil', description: 'Diseño y construcción de infraestructura.' },
-  { id: 3, title: 'Ingeniería Industrial', description: 'Optimización de procesos y organizaciones.' },
-  { id: 4, title: 'Ingeniería Electrónica', description: 'Automatización, control y tecnología.' },
-  { id: 5, title: 'Ingeniería Ambiental', description: 'Soluciones sostenibles para el futuro.' },
+  { id: 1, title: 'Medicina General', description: 'Atención primaria, prevención y seguimiento integral.' },
+  { id: 2, title: 'Medicina Interna', description: 'Diagnóstico y tratamiento de enfermedades en adultos.' },
+  { id: 3, title: 'Pediatría', description: 'Cuidado de la salud de niñas, niños y adolescentes.' },
+  { id: 4, title: 'Ginecología', description: 'Atención integral para la salud de la mujer.' },
+  { id: 5, title: 'Cardiología', description: 'Prevención, diagnóstico y cuidado cardiovascular.' },
 ];
 
 export const treatments = [
