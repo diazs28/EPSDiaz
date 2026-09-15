@@ -3,7 +3,7 @@ import Link from 'next/link';
 import SocialLinks from './SocialLinks';
 import NextLink from './NextLink';
 
-import { treatmentsFooter, aboutUsFooter } from '../data';
+import { treatmentsFooter, aboutUsFooter, siteLastUpdated } from '../data';
 
 // Extracted reusable widget for footer sections
 const FooterWidget = ({ title, items }) => (
@@ -106,7 +106,9 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="d-md-flex align-items-center justify-content-center">
-          <p className="mb-2 mb-lg-0">© {currentYear} EPSDiaz. Todos los derechos reservados.</p>
+          <p className="mb-2 mb-lg-0">
+            © {currentYear} EPSDiaz. Todos los derechos reservados. | Actualizado: {siteLastUpdated}
+          </p>
         </div>
       </div>
     </footer>

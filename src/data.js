@@ -1,3 +1,5 @@
+export const siteLastUpdated = '15 de septiembre de 2026';
+
 export const treatments = [
   { id: 1, title: 'Infección de oído' },
   { id: 2, title: 'Lesión de oído' },

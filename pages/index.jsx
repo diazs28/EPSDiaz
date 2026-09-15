@@ -13,6 +13,7 @@ const Home = () => {
       <Head>
         <title>EPSDiaz - Atención médica en Bogotá</title>
         <meta name="description" content="EPSDiaz brinda atención médica especializada, humana y confiable en Bogotá, Colombia." />
+        <meta name="date" content="2026-09-15" />
         <link rel="canonical" href="https://epsdiaz.com" />
       </Head>
 

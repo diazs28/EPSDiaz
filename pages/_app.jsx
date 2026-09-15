@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>EPSDiaz - Atención médica especializada</title>
         <meta name="description" content="EPSDiaz ofrece atención médica especializada, cercana y confiable para familias en Colombia." />
+        <meta name="date" content="2026-09-15" />
 
         {/* Open Graph Meta */}
         <meta property="og:type" content="website" />

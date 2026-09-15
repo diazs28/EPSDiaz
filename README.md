@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,6 +9,8 @@
   <link rel="canonical" href="https://github.com/themixlyweb/nextjs-medical-website-template" />
 </head>
 <body>
+
+<p><strong>Última actualización:</strong> 15 de septiembre de 2026</p>
 
 <h1>EPSDiaz – Sitio web de servicios de salud para Colombia</h1>
 
