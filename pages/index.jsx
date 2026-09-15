@@ -4,6 +4,7 @@ import PageProgress from 'components/PageProgress';
 import Hero from 'components/Hero';
 import About from 'components/About';
 import Services from 'components/Services';
+import EngineeringFaculties from 'components/EngineeringFaculties';
 
 const Home = () => {
   return (
@@ -56,6 +57,8 @@ const Home = () => {
             <Services />
           </div>
         </section>
+
+        <EngineeringFaculties />
       </main>
     </Fragment>
   );
