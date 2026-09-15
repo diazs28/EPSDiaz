@@ -12,7 +12,7 @@
 
 <h1>EPSDiaz – Sitio web de servicios de salud para Colombia</h1>
 
-<h2>Introduction</h2>
+
 <p>EPSDiaz es un sitio web moderno y optimizado para brindar información clara sobre servicios de salud, atención médica y contacto en Colombia.</p>
 
 <footer>
