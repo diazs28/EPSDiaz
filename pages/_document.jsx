@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-class ENTrovaDocument extends Document {
+class EPSDiazDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
@@ -8,7 +8,7 @@ class ENTrovaDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="es">
         <Head>
           {/* Favicon Links */}
           <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png" />
@@ -26,4 +26,4 @@ class ENTrovaDocument extends Document {
   }
 }
 
-export default ENTrovaDocument;
+export default EPSDiazDocument;

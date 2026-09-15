@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="ENTRova is a free, modern, and SEO-optimized React & Next.js template tailored for ENT clinics, doctors, and medical websites. Built with React 18+, Next.js 15+, Bootstrap 5 & SCSS." />
+  <meta name="description" content="EPSDiaz es una plantilla moderna y optimizada para sitios web de salud en Colombia. Construida con React, Next.js, Bootstrap y SCSS." />
   <meta name="keywords" content="ENT Clinic Template, React Medical Template, Next.js Healthcare Template, Bootstrap Medical UI, Free Medical Template" />
   <meta name="author" content="Themixly Web" />
   <link rel="canonical" href="https://github.com/themixlyweb/nextjs-medical-website-template" />
 </head>
 <body>
 
-<h1>ENTRova – Free React & Next.js Medical Template for ENT Clinics, Doctors & Healthcare Websites</h1>
+<h1>EPSDiaz – Sitio web de servicios de salud para Colombia</h1>
 
 <h2>Introduction</h2>
-<p>ENTRova is a free, modern, and SEO-optimized Next.js & Bootstrap medical website template tailored for ENT clinics, healthcare professionals, doctors, and hospitals. Built with React 18+, Next.js 15+, Bootstrap 5, and SCSS, it's ideal for creating fast, responsive, and professional websites in the healthcare and medical niche.</p>
+<p>EPSDiaz es un sitio web moderno y optimizado para brindar información clara sobre servicios de salud, atención médica y contacto en Colombia.</p>
 
 <h2>🔗 Live Preview & Download</h2>
 <ul>
@@ -70,15 +70,15 @@
 <h2>📸 Screenshots</h2>
 <figure>
   <figcaption>Includes pages like Home, About, Services, Treatments, Doctor Profile, ENT Surgeries, and Contact Page</figcaption><br/>
-  <img src="https://themixly.com/wp-content/uploads/2025/05/ENTRova-Product-Detail-Image2-scaled.png" alt="ENTRova Medical Pages Screenshot">
+  <img src="/img/logo-epsdiaz.svg" alt="EPSDiaz">
 </figure>
 
 <figure>
   <figcaption>Built with a responsive layout for desktop, tablet, and mobile devices</figcaption><br/>
-  <img src="https://themixly.com/wp-content/uploads/2025/05/ENTRova-Product-Detail-Image3-scaled.png" alt="ENTRova Responsive Layout">
+  <img src="/img/logo-epsdiaz.svg" alt="EPSDiaz responsive">
 </figure>
 
-<h2>✨ Why Choose ENTRova?</h2>
+<h2>✨ ¿Por qué elegir EPSDiaz?</h2>
 <ul>
   <li>Built for speed and performance</li>
   <li>Clean UI for healthcare and medical professionals</li>
@@ -102,7 +102,7 @@ npm run build     # Build for production</code></pre>
 
 <h3>📁 Folder Structure</h3>
 
-<pre><code>ENTRova/
+<pre><code>EPSDiaz/
 ├── pages/
 ├── public/
 │   ├── images/
@@ -149,7 +149,7 @@ You may use this version for personal and educational purposes.<br>
   📩 <a href="https://themixly.com/contact-us/" target="_blank">Contact Themixly Team</a><br>
 
 <footer>
-  © 2025 Themixly. All rights reserved. | Built with ❤️ for developers & designers.
+  © 2026 EPSDiaz. Todos los derechos reservados.
 </footer>
 
 </body>

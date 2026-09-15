@@ -42,22 +42,22 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ENTrova - ENT Hospital Website Template</title>
-        <meta name="description" content="ENTrova is a modern ENT hospital website template tailored for clinics, hospitals, and healthcare professionals." />
+        <title>EPSDiaz - Atención médica especializada</title>
+        <meta name="description" content="EPSDiaz ofrece atención médica especializada, cercana y confiable para familias en Colombia." />
 
         {/* Open Graph Meta */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="ENTrova - ENT Hospital Website Template" />
-        <meta property="og:description" content="Modern and responsive template for ENT clinics and healthcare services." />
-        <meta property="og:url" content="https://entrova.com/" />
-        <meta property="og:image" content="https://entrova.com/img/logo.webp" />
-        <meta property="og:image:secure_url" content="https://entrova.com/img/logo.webp" />
+        <meta property="og:title" content="EPSDiaz - Atención médica especializada" />
+        <meta property="og:description" content="Atención médica especializada, cercana y confiable en Colombia." />
+        <meta property="og:url" content="https://epsdiaz.com/" />
+        <meta property="og:image" content="https://epsdiaz.com/img/logo-epsdiaz.svg" />
+        <meta property="og:image:secure_url" content="https://epsdiaz.com/img/logo-epsdiaz.svg" />
 
         {/* Twitter Meta */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="ENTrova - ENT Hospital Website Template" />
-        <meta name="twitter:description" content="Modern and responsive template for ENT clinics and healthcare services." />
-        <meta name="twitter:image" content="https://entrova.com/img/logo.webp" />
+        <meta name="twitter:title" content="EPSDiaz - Atención médica especializada" />
+        <meta name="twitter:description" content="Atención médica especializada, cercana y confiable en Colombia." />
+        <meta name="twitter:image" content="https://epsdiaz.com/img/logo-epsdiaz.svg" />
       </Head>
 
       <ThemeProvider>

@@ -21,10 +21,10 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
   };
 
   const surgeryMenu = [
-    { id: 1, title: 'Ear Surgery', category: 'ear' },
-    { id: 2, title: 'Nose Surgery', category: 'nose' },
-    { id: 3, title: 'Throat Surgery', category: 'throat' },
-    { id: 4, title: 'Head & Neck Surgery', category: 'head' }
+    { id: 1, title: 'Servicios de oído', category: 'ear' },
+    { id: 2, title: 'Servicios de nariz', category: 'nose' },
+    { id: 3, title: 'Servicios de garganta', category: 'throat' },
+    { id: 4, title: 'Servicios de cabeza y cuello', category: 'head' }
   ];
 
   const renderLinks = (links) =>
@@ -37,7 +37,7 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
       <div className="navbar-brand w-100">
         <NextLink
           href="/"
-          title={<Image alt="Logo | ENTrova" className="py-2" src="/img/logo.webp" width={150} height={80} />}
+          title={<Image alt="Logo | EPSDiaz" className="py-2" src="/img/logo-epsdiaz.svg" width={180} height={80} />}
         />
       </div>
 
@@ -52,9 +52,9 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
             title={
               <Image
                 id="nav-logo"
-                alt="Logo | ENTrova"
+                alt="Logo | EPSDiaz"
                 className="p-2 position-static bg-white rounded"
-                src="/img/logo.webp"
+                src="/img/logo-epsdiaz.svg"
                 style={{ maxWidth: '200px' }}
                 layout="fill"
               />
@@ -71,16 +71,16 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100 offcavas-bg">
           <ul className="navbar-nav">
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="/" title="Home" className="nav-link" />
+              <NextLink href="/" title="Inicio" className="nav-link" />
             </li>
 
             <li className="nav-item dropdown d-none d-lg-block">
-              <DropdownToggleLink title="About Us" className="nav-link dropdown-toggle" />
+              <DropdownToggleLink title="Nosotros" className="nav-link dropdown-toggle" />
               <ul className="dropdown-menu" data-bs-dismiss="offcanvas">
                 {aboutUs.map(({ id, url, title, children }) => (
                   children ? (
                     <li className="dropdown dropdown-submenu dropend" key={id}>
-                      <DropdownToggleLink title="About Us " />
+                      <DropdownToggleLink title="Nosotros " />
                       <ul className="dropdown-menu">{renderLinks(children)}</ul>
                     </li>
                   ) : (
@@ -91,17 +91,17 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
             </li>
 
             <li className="nav-item d-lg-none" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="About Us" className="nav-link" />
+              <NextLink href="#" title="Nosotros" className="nav-link" />
             </li>
             <li className="nav-item d-lg-none" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Dr Jack Smith" className="nav-link" />
+              <NextLink href="#" title="Nuestro equipo" className="nav-link" />
             </li>
             <li className="nav-item d-lg-none" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Gallery" className="nav-link" />
+              <NextLink href="#" title="Galería" className="nav-link" />
             </li>
 
             <li className="nav-item dropdown d-none d-lg-block">
-              <DropdownToggleLink title="Surgeries" className="nav-link dropdown-toggle" href="#" />
+              <DropdownToggleLink title="Servicios" className="nav-link dropdown-toggle" href="#" />
               <div className="dropdown-menu dropdown-lg">
                 <div className="dropdown-lg-content">
                   <div>
@@ -118,12 +118,12 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
 
                   {surgeryCategory === 'ear' && (
                     <div>
-                      <h4 className="dropdown-header d-header">Ear Surgeries</h4>
+                      <h4 className="dropdown-header d-header">Servicios de oído</h4>
                       <ul className="list-unstyled justify-content-center">
-                        {["Tympanoplasty", "Mastoid", "Stapes", "Myringotomy"].map((surgery, idx) => (
+                        {["Timpanoplastia", "Mastoides", "Estribo", "Miringotomía"].map((surgery, idx) => (
                           <li key={idx}>
                             <Link className="dropdown-item" href="#">
-                              {surgery} Surgery
+                              {surgery}
                             </Link>
                           </li>
                         ))}
@@ -133,19 +133,19 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
 
                   {surgeryCategory === 'nose' && (
                     <div>
-                      <h4 className="dropdown-header d-header">Nose Surgeries</h4>
+                      <h4 className="dropdown-header d-header">Servicios de nariz</h4>
                       <ul className="list-unstyled justify-content-center">
                         {[
-                          "Adenoidectomy",
-                          "Septoplasty",
-                          "Sinus Surger",
-                          "Skull Base",
-                          "Pituitary",
-                          "Endonasal Dacryocystorhinostomy"
+                          "Adenoidectomía",
+                          "Septoplastia",
+                          "Senos paranasales",
+                          "Base de cráneo",
+                          "Hipófisis",
+                          "Dacriocistorrinostomía endonasal"
                         ].map((surgery, idx) => (
                           <li key={idx}>
                             <Link className="dropdown-item" href="#">
-                              {surgery} Surgery
+                              {surgery}
                             </Link>
                           </li>
                         ))}
@@ -155,19 +155,19 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
 
                   {surgeryCategory === 'throat' && (
                     <div>
-                      <h4 className="dropdown-header d-header">Throat Surgeries</h4>
+                      <h4 className="dropdown-header d-header">Servicios de garganta</h4>
                       <ul className="list-unstyled justify-content-center">
                         {[
-                          "Tonsillectomy",
-                          "Thyroid",
-                          "Parotid",
-                          "Microlaryngeal",
-                          "Bronchoscopy",
-                          "Direct Laryngoscopy & Biopsy"
+                          "Amigdalectomía",
+                          "Tiroides",
+                          "Parótida",
+                          "Microlaríngea",
+                          "Broncoscopia",
+                          "Laringoscopia directa y biopsia"
                         ].map((surgery, idx) => (
                           <li key={idx}>
                             <Link className="dropdown-item" href="#">
-                              {surgery} Surgery
+                              {surgery}
                             </Link>
                           </li>
                         ))}
@@ -179,7 +179,7 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
             </li>
 
             <li className="nav-item dropdown d-lg-none">
-              <DropdownToggleLink title="Surgeries" className="nav-link dropdown-toggle" />
+              <DropdownToggleLink title="Servicios" className="nav-link dropdown-toggle" />
               <ul className="dropdown-menu">
                 {surgery.map(({ id, title, children, url }) => (
                   children ? (
@@ -205,12 +205,12 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
 
             {["d-none d-lg-block", "d-lg-none"].map((cls, index) => (
               <li className={`nav-item dropdown ${cls}`} key={index}>
-                <DropdownToggleLink title="Treatments" className="nav-link dropdown-toggle" />
+                <DropdownToggleLink title="Tratamientos" className="nav-link dropdown-toggle" />
                 <ul className="dropdown-menu" data-bs-dismiss="offcanvas">
                   {treatments.map(({ id, title, children }) => (
                     children ? (
                       <li className="dropdown dropdown-submenu dropend" key={id}>
-                        <DropdownToggleLink title="Treatments" />
+                        <DropdownToggleLink title="Tratamientos" />
                         <ul className="dropdown-menu">{renderLinks(children)}</ul>
                       </li>
                     ) : (
@@ -222,14 +222,14 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
             ))}
 
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Contact Us" className="nav-link" />
+              <NextLink href="#" title="Contáctanos" className="nav-link" />
             </li>
             <li
               className="nav-item align-items-center d-flex mt-3 mt-lg-0 ms-lg-3"
               data-bs-dismiss="offcanvas"
             >
               <NextLink
-                title="Book Appointment"
+                title="Solicitar cita"
                 href="#"
                 className="btn btn-sm secondary-bg text-white mb-lg-1 rounded border border-md-none"
               />
@@ -239,12 +239,12 @@ const Navbar = ({ navClassName, navOtherClass, fancy, stickyBox }) => {
           <div className="offcanvas-footer d-lg-none">
             <div>
               <NextLink
-                title="contact@example.com"
+                title="contacto@epsdiaz.com"
                 className="link-inverse"
-                href="mailto:contact@example.com"
+                href="mailto:contacto@epsdiaz.com"
               />
               <br />
-              <NextLink href="tel:+911234567890" title="+91 12345 67890" />
+              <NextLink href="tel:+576013456789" title="+57 (601) 345 6789" />
               <br />
               <SocialLinks />
             </div>

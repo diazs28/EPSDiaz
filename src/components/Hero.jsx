@@ -53,16 +53,16 @@ const Hero = () => {
             data-delay="500"
           >
             <h2 className="fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-              ENT Specialist in Location.
+              Atención médica especializada en Bogotá.
             </h2>
 
             <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-              Trust ENTrova for Comprehensive Ear, Nose & Throat Care in Location.
+              En EPSDiaz encuentras atención confiable, humana y oportuna para ti y tu familia.
             </p>
 
             <div className="animate__animated animate__slideInUp animate__delay-3s">
               <NextLink
-                title="Read More"
+                title="Conoce nuestros servicios"
                 href="#"
                 className="btn btn-lg text-white secondary-bg rounded"
               />

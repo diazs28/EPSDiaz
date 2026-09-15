@@ -11,35 +11,35 @@ const Home = () => {
       <PageProgress />
 
       <Head>
-        <title>ENTrova - ENT Hospital Website Template</title>
-        <meta name="description" content="Trusted ENT care in Location. Discover our expert surgeries, treatments, and compassionate healthcare." />
-        <link rel="canonical" href="https://entrova.com" />
+        <title>EPSDiaz - Atención médica en Bogotá</title>
+        <meta name="description" content="EPSDiaz brinda atención médica especializada, humana y confiable en Bogotá, Colombia." />
+        <link rel="canonical" href="https://epsdiaz.com" />
       </Head>
 
       <main className="content-wrapper overflow-hidden">
         {/* Hero Section */}
         <Hero />
 
-        {/* About Section */}
+        {/* Sección sobre nosotros */}
         <section className="wrapper bg-light">
           <div className="container pt-8 pt-md-15">
             <About
               imgPosition="right"
               imgSrc="/img/ent.webp"
-              heading="Best ENT Hospital in Location"
-              para="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ut, nisi voluptatum dolore fuga molestiae optio magnam, sit recusandae vel repellat. Ad fuga eius modi repellendus perspiciatis fugit necessitatibus iusto blanditiis optio. Ipsam, qui cum? Numquam itaque doloremque qui, nihil sit, eligendi magni accusantium eaque similique vel deleniti hic recusandae. Ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ut, nisi voluptatum dolore fuga molestiae optio magnam, sit recusandae vel repellat. Ad fuga eius modi repellendus perspiciatis fugit necessitatibus iusto blanditiis optio. Ipsam, qui cum? Numquam itaque doloremque qui, nihil sit, eligendi magni accusantium eaque similique vel deleniti hic recusandae."
+              heading="Atención médica de confianza en Bogotá"
+              para="En EPSDiaz brindamos atención médica especializada con un enfoque humano, cercano y seguro. Nuestro equipo acompaña a cada paciente con profesionales comprometidos y servicios de salud pensados para las familias colombianas."
               isH1="true"
             />
           </div>
         </section>
 
-        {/* Surgeries Section */}
+        {/* Sección de servicios */}
         <section className="wrapper bg-light py-10 py-md-14">
           <div className="container">
             <div className="col-md-10 col-lg-8">
-              <p className="fs-80 fw-bolder sub-h2 position-relative">Surgeries</p>
+              <p className="fs-80 fw-bolder sub-h2 position-relative">Servicios</p>
               <h2 className="display-5 mb-16 fw-bold z-1 mt-n15 mt-md-n16 mt-lg-n17 sub-head">
-                ENT Surgery in Location
+                Servicios de salud en Bogotá
                 <span
                   className="ms-2 d-inline-block"
                   style={{

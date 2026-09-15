@@ -1,5 +1,5 @@
 {
-  "name": "entrova-nextjs",
+  "name": "epsdiaz",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -23,6 +23,8 @@
   },
   "devDependencies": {
     "@types/react": "18.0.28",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.3.3",
     "sass": "^1.58.3"
   }
 }

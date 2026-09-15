@@ -9,7 +9,7 @@ const ServiceCard = ({ title, src, description }) => {
         <div className="card-body p-2">
           <Image
             src={src}
-            alt={`${title} | ENTrova`}
+            alt={`${title} | EPSDiaz`}
             width={100}
             height={100}
             className="position-static my-5"
